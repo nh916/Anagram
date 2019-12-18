@@ -76,4 +76,6 @@ class Anagrams:
 
 if __name__ == '__main__':
     phrase = Anagrams()
-    phrase.is_anagram('carve crave')
+    word_1 = input("Enter Word 1: ")
+    word_2 = input('Enter Word 2: ')
+    phrase.is_anagram(word_1 + " " + word_2)
